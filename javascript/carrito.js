@@ -83,4 +83,19 @@ function cargarProductosSeleccionados() {
   }
 }
 
-
+const showalert = () => {
+  Swal.fire({
+    icon: 'succes',
+    title: 'Datos enviados correctamente',
+    text: 'Nos pondremos en contacto para terminar el pago',
+    footer: '<a href="">Why do I have this issue?</a>'
+  })
+}
+function enviarDatos(){
+  Swal.fire({
+    icon: 'success',
+    title: 'Datos enviados correctamente',
+    text: 'Nos  comunicaremos para completar la compra',
+    
+  })
+}
